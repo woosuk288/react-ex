@@ -1,12 +1,15 @@
 import React from "react";
+import { StylesProvider } from "@material-ui/core/styles";
 import Routes from "./Routes";
 
 function App() {
   return (
-    <div>
+    <StylesProvider injectFirst>
+      {/* Your component tree.
+      Now, you can override Material-UI's styles. */}
       {/* <Base /> */}
       <Routes />
-    </div>
+    </StylesProvider>
   );
 }
 

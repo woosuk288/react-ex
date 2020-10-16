@@ -12,3 +12,18 @@ body {
   -moz-osx-font-smoothing: grayscale;
   /* background-color: #ffffff; */
 }
+
+.flex {
+  display: flex;
+}
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.flex-initial {
+  flex: 0 1 auto;
+}
+
+.m-4 {
+  margin: 1rem;
+}
